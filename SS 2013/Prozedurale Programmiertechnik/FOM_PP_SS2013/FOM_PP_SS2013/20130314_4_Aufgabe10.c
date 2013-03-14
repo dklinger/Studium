@@ -3,13 +3,14 @@
 int main()
 {
 	double nettoBetrag, bruttoBetrag, mwst;
-	
+	double mwstSatz = 0.19;
+
 	printf("Geldbetrag: ");
 	scanf("%lg", &nettoBetrag);
 	
 	printf("\n\n");
 
-	mwst = nettoBetrag * 0.19;
+	mwst = nettoBetrag * mwstSatz;
 	
 	bruttoBetrag = nettoBetrag + mwst;
 	
