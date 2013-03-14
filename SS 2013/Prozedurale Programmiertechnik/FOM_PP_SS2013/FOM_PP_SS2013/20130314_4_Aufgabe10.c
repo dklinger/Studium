@@ -6,7 +6,7 @@ int main()
 	double const mwstSatz = 0.19;
 
 	printf("Geldbetrag: ");
-	scanf("%lg", &nettoBetrag);
+	scanf("%lf", &nettoBetrag);
 	
 	printf("\n\n");
 
@@ -14,10 +14,10 @@ int main()
 	
 	bruttoBetrag = nettoBetrag + mwst;
 	
-	printf("Betrag:    %lg\n", nettoBetrag);
-	printf("+ MWST:    %lg\n", mwst);
+	printf("Betrag: %10.2lf\n", nettoBetrag);
+	printf("+ MWST: %10.2lf\n", mwst);
 	printf("------------------\n");
-	printf("Gesamt:    %lg\n", bruttoBetrag);
+	printf("Gesamt: %10.2lf\n", bruttoBetrag);
 
 
 	return 0;
