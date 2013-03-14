@@ -1,4 +1,4 @@
-#include<stdint.h>
+#include<stdio.h>
 
 int main(){
 
@@ -11,4 +11,6 @@ int main(){
 
 	printf("Das zeichen war: %c\n", zeichen);
 	printf("Das Zeichen hat den Code: %d\n", zeichen);
+
+	return 0;
 }
