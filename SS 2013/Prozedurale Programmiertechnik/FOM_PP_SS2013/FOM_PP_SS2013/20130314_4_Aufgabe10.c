@@ -3,7 +3,7 @@
 int main()
 {
 	double nettoBetrag, bruttoBetrag, mwst;
-	double mwstSatz = 0.19;
+	double const mwstSatz = 0.19;
 
 	printf("Geldbetrag: ");
 	scanf("%lg", &nettoBetrag);
