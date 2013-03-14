@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20130314_5_Aufgabe12.c" />
+    <ClCompile Include="20130314_6_Aufgabe13.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6DEB4AB3-8BE7-4641-9E6D-10D49F1D55F9}</ProjectGuid>
