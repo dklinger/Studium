@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20130326_4_Pi.c">
+    <ClCompile Include="20130404_1_BspChar.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
