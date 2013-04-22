@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20130404_1_BspChar.c">
+    <ClCompile Include="20130404_5_Aufgabe34.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
