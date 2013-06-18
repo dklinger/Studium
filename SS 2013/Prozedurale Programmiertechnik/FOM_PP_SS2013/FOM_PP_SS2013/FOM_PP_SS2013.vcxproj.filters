@@ -15,7 +15,160 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="20130522_2_Aufgabe41.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130522_1_Aufgabe39.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130521_3_BspStrukt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130521_2_Bspmalloc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130521_1_BspArrFunk.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130516_6_BspSuche.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130516_5_Aufgabe39.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130516_4_Aufgabe37.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130516_3_Aufgabe36b.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130516_2_Kreis.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130514_2_BspPtr1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130514_1_Aufgabe36a.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
     <ClCompile Include="20130404_5_Aufgabe34.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130404_4_BspFunk.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130404_3_Aufgabe33.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130404_3_Aufgabe32b.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130404_2_BspString.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130404_1_BspChar.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130402_4_BspChar.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130402_3_BspArr.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130402_3_Aufgabe31.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130402_2_Aufgabe30.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130402_1_Augabe29.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_6_Einmaleins.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_5_Aufgabe26.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_4_Bspbreak.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_3_Aufgabe21.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_2_AddZinsenUntilGuthabenVerdoppelt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130328_1_QuersummeBeliebigeZahl.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130326_4_Pi.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130326_3_Aufgabe3.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130326_2_Aufgabe2.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130326_1_Aufgabe1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_7_BspAbfrage.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_6_Aufgabe19.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_5_Schaltjahr.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_4_Aufgabe18.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_3_Alter.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_2_Aufgabe15.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130318_1_Verbrauch.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_6_Aufgabe13.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_5_Aufgabe12.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_4_Aufgabe10.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_3_Aufgabe9.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_2_BspZeichen.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130314_1_Hallo.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130312_4_rotateVariable_Aufgabe7.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130312_4_Aufgabe7.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130312_3_Aufgabe5.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130312_2_beispielVar.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130312_1_hello.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="20130523_3_Aufgabe42.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

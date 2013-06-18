@@ -11,7 +11,58 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="20130312_1_hello.c" />
+    <ClCompile Include="20130312_2_beispielVar.c" />
+    <ClCompile Include="20130312_3_Aufgabe5.c" />
+    <ClCompile Include="20130312_4_Aufgabe7.c" />
+    <ClCompile Include="20130312_4_rotateVariable_Aufgabe7.c" />
+    <ClCompile Include="20130314_1_Hallo.c" />
+    <ClCompile Include="20130314_2_BspZeichen.c" />
+    <ClCompile Include="20130314_3_Aufgabe9.c" />
+    <ClCompile Include="20130314_4_Aufgabe10.c" />
+    <ClCompile Include="20130314_5_Aufgabe12.c" />
+    <ClCompile Include="20130314_6_Aufgabe13.c" />
+    <ClCompile Include="20130318_1_Verbrauch.c" />
+    <ClCompile Include="20130318_2_Aufgabe15.c" />
+    <ClCompile Include="20130318_3_Alter.c" />
+    <ClCompile Include="20130318_4_Aufgabe18.c" />
+    <ClCompile Include="20130318_5_Schaltjahr.c" />
+    <ClCompile Include="20130318_6_Aufgabe19.c" />
+    <ClCompile Include="20130318_7_BspAbfrage.c" />
+    <ClCompile Include="20130326_1_Aufgabe1.c" />
+    <ClCompile Include="20130326_2_Aufgabe2.c" />
+    <ClCompile Include="20130326_3_Aufgabe3.c" />
+    <ClCompile Include="20130326_4_Pi.c" />
+    <ClCompile Include="20130328_1_QuersummeBeliebigeZahl.c" />
+    <ClCompile Include="20130328_2_AddZinsenUntilGuthabenVerdoppelt.c" />
+    <ClCompile Include="20130328_3_Aufgabe21.c" />
+    <ClCompile Include="20130328_4_Bspbreak.c" />
+    <ClCompile Include="20130328_5_Aufgabe26.c" />
+    <ClCompile Include="20130328_6_Einmaleins.c" />
+    <ClCompile Include="20130402_1_Augabe29.c" />
+    <ClCompile Include="20130402_2_Aufgabe30.c" />
+    <ClCompile Include="20130402_3_Aufgabe31.c" />
+    <ClCompile Include="20130402_3_BspArr.c" />
+    <ClCompile Include="20130402_4_BspChar.c" />
+    <ClCompile Include="20130404_1_BspChar.c" />
+    <ClCompile Include="20130404_2_BspString.c" />
+    <ClCompile Include="20130404_3_Aufgabe32b.c" />
+    <ClCompile Include="20130404_3_Aufgabe33.c" />
+    <ClCompile Include="20130404_4_BspFunk.c" />
     <ClCompile Include="20130404_5_Aufgabe34.c" />
+    <ClCompile Include="20130514_1_Aufgabe36a.c" />
+    <ClCompile Include="20130514_2_BspPtr1.c" />
+    <ClCompile Include="20130516_2_Kreis.c" />
+    <ClCompile Include="20130516_3_Aufgabe36b.c" />
+    <ClCompile Include="20130516_4_Aufgabe37.c" />
+    <ClCompile Include="20130516_5_Aufgabe39.c" />
+    <ClCompile Include="20130516_6_BspSuche.c" />
+    <ClCompile Include="20130521_1_BspArrFunk.c" />
+    <ClCompile Include="20130521_2_Bspmalloc.c" />
+    <ClCompile Include="20130521_3_BspStrukt.c" />
+    <ClCompile Include="20130522_1_Aufgabe39.c" />
+    <ClCompile Include="20130522_2_Aufgabe41.c" />
+    <ClCompile Include="20130523_3_Aufgabe42.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6DEB4AB3-8BE7-4641-9E6D-10D49F1D55F9}</ProjectGuid>
