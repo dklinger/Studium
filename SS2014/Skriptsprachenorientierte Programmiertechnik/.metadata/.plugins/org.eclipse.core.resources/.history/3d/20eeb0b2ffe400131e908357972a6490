@@ -1,0 +1,11 @@
+<?php
+
+$user = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
+$password = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+for($i = 0; $i < count($user); $i++)
+{
+	print("User: $user[$i] = $password[$i]");
+}
+
+?>

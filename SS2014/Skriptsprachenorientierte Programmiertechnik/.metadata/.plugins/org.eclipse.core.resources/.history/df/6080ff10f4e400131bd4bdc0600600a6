@@ -1,0 +1,23 @@
+<?php
+
+$dir = "C:\Arbeit\Studium\xampp portable\htdocs";
+$dir_content = GetContent($dir);
+
+
+
+function GetContent($directory)
+{
+	for ($i = 0; $i < $directory.length; $i++)
+	{
+		if(id_dir($directory[$i]))
+		{
+			GetContent($directory ."\". $directory[$i])
+		}
+		else 
+		{
+			
+		}
+	}
+}
+
+?>

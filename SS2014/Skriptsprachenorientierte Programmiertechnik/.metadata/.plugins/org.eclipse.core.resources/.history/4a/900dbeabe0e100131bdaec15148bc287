@@ -1,0 +1,21 @@
+<?php
+
+echo fibunaci(5);
+
+function fibunaci($stelle)
+{
+	$akt = 0;
+	$erg = 1;
+	$start = 0;
+	while($akt < $stelle)
+	{
+		$akt++;
+		$tmp = $erg;
+		$erg = $start + $erg;
+		$start = $tmp;
+	}
+	
+	return $erg;
+}
+
+?>

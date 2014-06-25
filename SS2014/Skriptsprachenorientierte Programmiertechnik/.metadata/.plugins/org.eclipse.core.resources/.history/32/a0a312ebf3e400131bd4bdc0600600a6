@@ -1,0 +1,16 @@
+<?php
+
+$dir = "C:\Arbeit\Studium\xampp portable\htdocs";
+$dir_content = GetContent($dir);
+
+
+
+function GetContent($directory)
+{
+	foreach ($i = 0; $i < $directory.length; $i++)
+	{
+		
+	}
+}
+
+?>

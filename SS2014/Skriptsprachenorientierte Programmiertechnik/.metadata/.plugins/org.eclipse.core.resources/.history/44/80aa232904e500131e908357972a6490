@@ -1,0 +1,30 @@
+<?php
+
+class Ampel {
+	var $roteLampe;
+	var $grueneLampe;
+
+	// Add $num articles of $artnr to the cart
+
+	function Ampel()
+	{
+		$this->roteLampe = false;
+		$this->grueneLampe = false;
+	}
+	
+	function schalteRot($wert) 
+	{
+		$this->roteLampe = $wert;
+		$this->grueneLampe = !$wert;		
+	}
+	
+	function schalteGruen($wert) 
+	{
+		$this->roteLampe = $wert;
+		$this->grueneLampe = !$wert;		
+	}
+}
+	
+
+
+?>

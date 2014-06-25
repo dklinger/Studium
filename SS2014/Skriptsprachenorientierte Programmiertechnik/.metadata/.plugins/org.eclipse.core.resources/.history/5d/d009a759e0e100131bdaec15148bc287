@@ -1,0 +1,33 @@
+<?php
+
+echo fibunaci(5);
+
+function fibunaci($stelle)
+{
+	$akt = 0;
+	$erg = 0;
+	//$zahl = 1;
+	$start = 1;
+	while($akt < $stelle)
+	{
+		$akt++;
+		$erg = $erg + $start;
+		//$start = $erg;
+		
+		//echo "$tmp	$zahl	$start\r\n";
+	}
+	
+	//0+1=1  1+1=2  1+2=3  2+3=5  3+5=8
+	
+	
+	
+	//1		1	2
+	//2		3	5
+	//5		8	13
+	
+	return $erg;
+	
+	//1 1 2 3 5 8 13 21 34
+}
+
+?>
