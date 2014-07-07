@@ -1,0 +1,12 @@
+<?php
+
+$str = "50678";
+
+$regEx = "/[0-9]{5}/";
+
+if(preg_match($regEx, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

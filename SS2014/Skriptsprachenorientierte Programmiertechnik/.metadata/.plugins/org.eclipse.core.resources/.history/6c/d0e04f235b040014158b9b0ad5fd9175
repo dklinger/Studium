@@ -1,0 +1,18 @@
+<?php
+
+$str = "abcabcabc";
+
+$regex1 = "/Weltmeister$|Europameister$/";
+$regex2 = "/Weltmeister/";
+$regex3 = "/\**a+[cd]/";
+$regex4 = "/abc/";
+$regex = "/abc/";
+
+$text = def
+
+if(preg_match($regex, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

@@ -6,5 +6,6 @@ org.eclipse.php.debug.coreinstalledPHPDefaults=org.eclipse.php.debug.core.zendDe
 org.eclipse.php.debug.coreinstalledPHPInis=null
 org.eclipse.php.debug.coreinstalledPHPLocations=C\:\\Arbeit\\xampp-portable-win32-1.8.3-4-VC11\\xampp\\php\\php.exe
 org.eclipse.php.debug.coreinstalledPHPNames=PHP 5.5.11 (CLI)
+org.eclipse.php.debug.coreopen_debug_views=false
 org.eclipse.php.debug.corephp_versions=null
 org.eclipse.php.debug.corerun_with_debug_info=false

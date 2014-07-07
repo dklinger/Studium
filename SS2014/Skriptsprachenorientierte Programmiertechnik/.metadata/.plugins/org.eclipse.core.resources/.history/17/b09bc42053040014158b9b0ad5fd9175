@@ -1,0 +1,31 @@
+<?php
+
+$n = trim(fgets(STDIN));
+
+for($i = 1; $i<=$n; $i++)
+{
+	$teilenMoeglich = false;
+	for($t=2;$t<=($i/2);$t++)
+	{
+		if($i % $t == 0)
+		{
+			$teilenMoeglich = true;
+			break;
+		}
+	}
+	
+	if(!$teilenMoeglich)
+	{
+	
+		$handle = fopen("Prim.txt", "a");
+		if(!$handle)
+		{
+			echo "Kann die Datei nicht öffnen";
+			exit;
+		}
+		fwrite($handle, $i."\r\n");
+		fclose($handle);
+	}
+} 
+
+?>

@@ -1,0 +1,28 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+
+//quiz($laender);
+
+function quiz($laender)
+{
+	$anzRichtig = 0;
+	
+	foreach($laender as $key => $val)
+	{
+		echo "Land: ".$key."\r\n";
+		echo "Eingabe: ";
+		$user = trim(fgets(STDIN));
+		if(strcasecmp($laender[$key], $user) == 0)
+		{
+			echo "Richtig!\r\n";
+			$anzRichtig++;
+		}
+		else 
+		{
+			echo "Falsch! Richtig wäre $laender[$key]\r\n";
+		}
+	}
+	
+	echo "Anzahl richtige Antworten: $anzRichtig";
+}

@@ -1,0 +1,23 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+
+$anzRichtig = 0;
+
+foreach($laender as $key => $val)
+{
+	echo "Land: ".$laender[$key]."\r\n";
+	echo "Eingabe: ";
+	$user = trim(fgets(STDIN));
+	if(strcasecmp($laender[key], $user) == 0)
+	{
+		echo "Richtig!\r\n";
+		$anzRichtig++;
+	}
+	else 
+	{
+		echo "Falsch\r\n";
+	}
+}
+
+echo "Anzahl richtige Antworten: $anzRichtig";

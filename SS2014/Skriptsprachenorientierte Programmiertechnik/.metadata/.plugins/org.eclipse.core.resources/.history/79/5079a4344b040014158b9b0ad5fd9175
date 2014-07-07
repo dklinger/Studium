@@ -1,0 +1,8 @@
+<?php
+
+echo "Radius: ";
+$radius = trim(fgets(STDIN));
+
+echo ($radius === 0 ? "1" : "0");
+
+?>

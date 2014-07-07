@@ -1,0 +1,13 @@
+<?php
+
+echo "Radius: ";
+$radius = trim(fgets(STDIN));
+
+$volumen = (4/3) * 3.1415926 * $radius ^ 3;
+$volumen2 = (4/3) * 3.1415926 * ($radius * $radius * $radius); 
+
+echo $volumen;
+echo "\r\n";
+echo $volumen2;
+
+?>

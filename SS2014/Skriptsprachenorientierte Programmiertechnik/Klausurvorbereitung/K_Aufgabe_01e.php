@@ -1,0 +1,21 @@
+<?php
+
+echo "Anzahl der Zahlen: ";
+$anz = trim(fgets(STDIN));
+
+$arr = array();
+
+for($i=1;$i<=$anz;$i++)
+{
+	echo "Zahl $i: ";
+	$zahl = trim(fgets(STDIN));
+	if(is_numeric($zahl))
+	{
+		$arr[] = $zahl;
+	}
+}
+
+sort($arr);
+print_r($arr);
+	
+?>

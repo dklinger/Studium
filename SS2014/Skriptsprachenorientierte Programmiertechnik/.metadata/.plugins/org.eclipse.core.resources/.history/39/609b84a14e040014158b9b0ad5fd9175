@@ -1,0 +1,13 @@
+<?php
+
+$arr = array();
+
+while(1==1){
+	$zahl = trim(fgets(STDIN));
+	if(is_numeric($zahl))
+	{
+		
+	}
+}
+
+?>

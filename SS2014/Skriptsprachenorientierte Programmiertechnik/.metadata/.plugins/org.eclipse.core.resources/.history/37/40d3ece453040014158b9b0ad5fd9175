@@ -1,0 +1,8 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+
+for($i = 0; $i < count($laender); $i++)
+{
+	
+}

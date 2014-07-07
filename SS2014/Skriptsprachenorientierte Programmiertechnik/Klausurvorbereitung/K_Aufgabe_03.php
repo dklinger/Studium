@@ -1,0 +1,53 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+
+//addLand("Deutschland", "Bonn");
+//quiz();
+
+function addLand($land, $stadt)
+{
+	global $laender;
+	if(array_key_exists($land, $laender))
+	{
+		if(strcasecmp($laender[$land], $stadt) <> 0)
+		{
+			echo "Möchten Sie Stadt zum Land $land von $laender[$land] zu $stadt ändern? (j/n)";
+			$aendern = trim(fgets(STDIN));
+			if(strcasecmp($aendern, "j") == 0)
+			{
+				$laender[$land] = $stadt;
+			}
+		}
+	}
+	else
+	{
+		$laender[$land] = $stadt; 
+	}
+	
+	print_r($laender);
+}
+
+function quiz()
+{
+	global $laender;
+	$anzRichtig = 0;
+	
+	foreach($laender as $key => $val)
+	{
+		echo "Land: ".$key."\r\n";
+		echo "Eingabe: ";
+		$user = trim(fgets(STDIN));
+		if(strcasecmp($laender[$key], $user) == 0)
+		{
+			echo "Richtig!\r\n";
+			$anzRichtig++;
+		}
+		else 
+		{
+			echo "Falsch! Richtig wäre $laender[$key]\r\n";
+		}
+	}
+	
+	echo "Anzahl richtige Antworten: $anzRichtig";
+}

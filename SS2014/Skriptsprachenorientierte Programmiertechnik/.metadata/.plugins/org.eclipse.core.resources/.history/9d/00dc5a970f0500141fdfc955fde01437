@@ -1,0 +1,11 @@
+<?php
+
+$regexSearch = "/([0-9]{3})-([0-9]{4})-([0-9]{5})/";
+
+$replace = "$3-$1-$2";
+
+$str = trim(fgets(STDIN));
+
+echo preg_replace($regexSearch, $replace, $str);
+		
+?>

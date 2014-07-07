@@ -1,0 +1,12 @@
+<?php
+
+
+
+$str = trim(fgets(STDIN));
+
+$strArr = str_split($str);
+sort($strArr);
+
+print_r($strArr);
+
+?>

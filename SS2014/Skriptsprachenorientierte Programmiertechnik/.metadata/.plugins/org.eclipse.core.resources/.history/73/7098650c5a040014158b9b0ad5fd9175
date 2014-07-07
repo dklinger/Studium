@@ -1,0 +1,14 @@
+<?php
+
+$str = "acd";
+
+$regex1 = "/Weltmeister$|Europameister$/";
+$regex2 = "/Weltmeister/";
+$regex = "/\**a+[cd]/";
+
+if(preg_match($regex, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

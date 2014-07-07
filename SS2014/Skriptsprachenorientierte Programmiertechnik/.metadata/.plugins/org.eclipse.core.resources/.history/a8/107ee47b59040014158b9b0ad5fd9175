@@ -1,0 +1,13 @@
+<?php
+
+$str = "abc Europameister";
+
+$regex1 = "/Weltmeister$|Europameister$/";
+$regex = "/Weltmeister/";
+
+if(preg_match($regex, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

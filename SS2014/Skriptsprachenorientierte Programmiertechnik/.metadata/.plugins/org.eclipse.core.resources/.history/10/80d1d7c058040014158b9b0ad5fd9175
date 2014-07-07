@@ -1,0 +1,12 @@
+<?php
+
+$str = "abc Weltmeister";
+
+$regEx = "/[0-9]{5}/";
+
+if(preg_match($regEx, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

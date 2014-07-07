@@ -1,0 +1,15 @@
+<?php
+
+$str = "****ad";
+
+$regex1 = "/Weltmeister$|Europameister$/";
+$regex2 = "/Weltmeister/";
+$regex3 = "/\**a+[cd]/";
+$regex = "/\**a+[cd]/";
+
+if(preg_match($regex, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

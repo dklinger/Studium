@@ -1,0 +1,8 @@
+<?php
+
+function BruttoPreis($nettoPreis)
+{
+	$brutto = $nettoPreis * 1.19;
+}
+
+?>

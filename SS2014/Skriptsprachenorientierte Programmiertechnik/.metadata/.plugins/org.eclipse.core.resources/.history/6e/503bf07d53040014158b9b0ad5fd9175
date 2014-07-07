@@ -1,0 +1,4 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+

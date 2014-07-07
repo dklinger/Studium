@@ -1,0 +1,4 @@
+<?php
+
+$satz = "The black cat climbed the green tree";
+$newStr = str_replace("black", "white", $satz);

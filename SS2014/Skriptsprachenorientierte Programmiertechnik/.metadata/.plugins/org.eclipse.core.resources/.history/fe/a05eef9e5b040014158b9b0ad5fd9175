@@ -1,0 +1,18 @@
+<?php
+
+$str = "defdefdefdef";
+
+$regex1 = "/Weltmeister$|Europameister$/";
+$regex2 = "/Weltmeister/";
+$regex3 = "/\**a+[cd]/";
+$regex4 = "/(abc){2,}/";
+
+$text = "def";
+$regex = "/$text{5}/";
+
+if(preg_match_all($regex, $str, $hit))
+{
+	print_r($hit);
+}
+
+?>

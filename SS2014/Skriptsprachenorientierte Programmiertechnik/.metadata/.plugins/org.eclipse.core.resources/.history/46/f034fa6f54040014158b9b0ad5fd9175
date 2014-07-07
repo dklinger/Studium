@@ -1,0 +1,9 @@
+<?php
+
+$laender = array("Deutschland" => "Berlin", "Frankreich" => "Paris", "Italien" => "Rom", "Russland" => "Moskau");
+
+foreach($laender as $key => $val)
+{
+	"Land: ".$laender[$key];
+	
+}
